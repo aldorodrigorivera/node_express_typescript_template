@@ -1,0 +1,18 @@
+{
+    "compilerOptions":{
+        "sourceMap": true,
+        "target":"es6",
+        "outDir": "dist",
+        "rootDir":"./src",
+        "esModuleInterop":true,
+        "strict": true,
+        "baseUrl": "src",
+        "paths": {
+            "@/*": ["./*"]
+        },
+        "typeRoots": ["./node_modules/@types", "@types"]
+    },
+    "include": [
+        "src"
+    ],  
+}
